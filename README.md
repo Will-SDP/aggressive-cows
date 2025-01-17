@@ -14,13 +14,14 @@ Based on the assement breifing these are the business assumptions which I have m
 - If the number of cows exceeds the number of stalls then return an error. 
 - We know only one cow can be placed per stall. If the input contains the same stall coordinate twice then we should return an error. 
 
+### Error Codes
 | Error Condition | Error Code | Error Message |
 | ----------- | ----------- | ----------- |
 | More cows than stalls | -1 | Cows exceeds stalls. |
 | Duplicate stall coordinates | -2 | Duplicate stall coordinates have been input. |
 | A single stall is passed in | -3 | Unable to calculate distance with a single stall |
 | A negative stall coordinate is given. | -4 | Negative stall coordinates are not permitted. |
-
+[^1]: Table 1.1
 ## Unit tests
 
 
