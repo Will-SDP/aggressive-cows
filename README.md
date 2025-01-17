@@ -14,7 +14,7 @@ Based on the assement breifing these are the business assumptions which I have m
 - If the number of cows exceeds the number of stalls then return an error. 
 - We know only one cow can be placed per stall. If the input contains the same stall coordinate twice then we should return an error. 
 
-### Error Codes
+### Error Codes [^1]
 | Error Condition | Error Code | Error Message |
 | ----------- | ----------- | ----------- |
 | More cows than stalls | -1 | Cows exceeds stalls. |
