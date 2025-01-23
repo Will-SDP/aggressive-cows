@@ -14,5 +14,9 @@ class Error():
 
     def get_error(self, val):
         return self.error_codes[val]
+    
+    def add_error(self, key, msg):
+        self.error_codes[key] = msg
+        
 
        
