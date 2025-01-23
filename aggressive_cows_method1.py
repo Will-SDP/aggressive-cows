@@ -1,12 +1,7 @@
 from distance_ok import distance_ok 
+from error_codes import Error
 
-error_codes = {
-    -1: 'Cows exceeds stalls.',
-    -2: 'Duplicate stall coordinates have been input.',
-    -3: 'Unable to calculate distance with a single stall', 
-    -4: 'Negative stall coordinates are not permitted.'
-
-}
+e = Error()
 
 def aggressive_cows(stalls, cows):
     # Sort the stalls to calculate min and max value
