@@ -12,6 +12,7 @@ def distance_ok(stalls, cows, distance):
             # continue the evaluation so return True
             if cows_placed >= cows:
                 return True
+            
     return cows_placed >= cows 
 
 

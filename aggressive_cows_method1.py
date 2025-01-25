@@ -15,11 +15,18 @@ def aggressive_cows(stalls, cows):
     max = stalls[size]
 
     # Record the highest value that works
-    max_value = 0 
+    max_value = 0
 
     for i in range(min, max):
         if distance_ok(stalls, cows, i):
             max_value = i 
-    return max_value        
+
+    # if max we have found a placement that works and max_value is stil 0 then return -1
+    # Else return max value 
+
+    if max_value == 0:
+        return -1 
+    else:
+        return max_value        
 
 
