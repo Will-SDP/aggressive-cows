@@ -1,5 +1,5 @@
 import sys
-## from aggressive_cows_method1 import aggressive_cows
+# from aggressive_cows_method1 import aggressive_cows
 from aggressive_cows_method2 import aggressive_cows
 from error_codes import Error
 

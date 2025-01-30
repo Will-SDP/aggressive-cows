@@ -7,8 +7,7 @@ class Error():
         self.error_codes = {
             -1: 'Cows exceeds stalls.',
             -2: 'Duplicate stall coordinates have been input.',
-            -3: 'Unable to calculate distance with a single stall', 
-            -4: 'Negative stall coordinates are not permitted.'
+            -3: 'Unable to calculate distance with a single stall'
 
         }   
 

@@ -10,11 +10,12 @@ def aggressive_cows(stalls, cows):
     # Get the size of the array. 
     size = len(stalls) - 1 
     
-    ## Check if cows exceeds stalls 
+    # Check if cows exceeds stalls 
     if cows -1 > size:
         return -1  
     
-    ## Check for duplicate coordinates 
+    # Check for duplicate coordinates 
+    # 
     check_dic = {}
     for i in stalls:
         if i not in check_dic.keys():
