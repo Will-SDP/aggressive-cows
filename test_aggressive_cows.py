@@ -1,5 +1,5 @@
 import unittest 
-from aggressive_cows_method1 import aggressive_cows
+from aggressive_cows_method2 import aggressive_cows
 
 class TestClass(unittest.TestCase):
     # Test case from breif

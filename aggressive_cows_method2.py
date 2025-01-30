@@ -9,6 +9,27 @@ def aggressive_cows(stalls, cows):
 
     # Get the size of the array. 
     size = len(stalls) - 1 
+    
+    ## Check if cows exceeds stalls 
+    if cows -1 > size:
+        return -1  
+    
+    ## Check for duplicate coordinates 
+    check_dic = {}
+    for i in stalls:
+        if i not in check_dic.keys():
+            check_dic[i] = 1 
+        else:
+            check_dic[i] += 1 
+    if len(check_dic.keys()) != len(stalls):
+        return -2            
+    
+
+    ## Check for single stall 
+    if size == 0:
+        return -3 
+    
+
 
     # Assign upper and lower index 
     lower_idx = stalls[0]

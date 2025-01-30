@@ -4,6 +4,7 @@ from error_codes import Error
 e = Error()
 
 def aggressive_cows(stalls, cows):
+
     # Sort the stalls to calculate min and max value
     stalls.sort() 
 
@@ -21,12 +22,15 @@ def aggressive_cows(stalls, cows):
         if distance_ok(stalls, cows, i):
             max_value = i 
 
-    # if max we have found a placement that works and max_value is stil 0 then return -1
+    # if max we haven't found a placement that works and max_value is stil 0 then return -1
     # Else return max value 
 
     if max_value == 0:
         return -1 
     else:
-        return max_value        
+        return max_value
+    
+
+   
 
 
