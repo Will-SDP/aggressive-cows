@@ -3,8 +3,6 @@ import sys
 from aggressive_cows_method2 import aggressive_cows
 from error_codes import Error
 
-## 1 4 6 7 10
-
 
 if __name__ == "__main__":
     e = Error()

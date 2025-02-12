@@ -1,7 +1,5 @@
 from distance_ok import distance_ok 
-from error_codes import Error
 
-e = Error()
 
 def aggressive_cows(stalls, cows):
     # Sort the stalls to perform a binary search 
@@ -26,7 +24,7 @@ def aggressive_cows(stalls, cows):
         return -2            
     
 
-    ## Check for single stall 
+    # Check for single stall 
     if size == 0:
         return -3 
     

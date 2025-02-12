@@ -8,7 +8,6 @@ Given the problem laid out in Assessment_Brief_TASK-A I have identified three ma
 ## Business Logic
 Based on the assement breifing these are the business assumptions which I have made and will be followed during the deveopment stage. 
 
-- All stall postions are positve and zero indexed.
 - If all cows cannot be placed or user input is invalid the program will use a set of error codes. For these we will use negative numbers as we don't expect to recieve negative stall coordintes (See table 1.1).
 - When a single stall coordinate is passed in this isn't sufficent to calculte a max min distance so return an error.
 - If the number of cows exceeds the number of stalls then return an error. 
@@ -20,11 +19,7 @@ Based on the assement breifing these are the business assumptions which I have m
 | More cows than stalls | -1 | Cows exceeds stalls. |
 | Duplicate stall coordinates | -2 | Duplicate stall coordinates have been input. |
 | A single stall is passed in | -3 | Unable to calculate distance with a single stall |
-| A negative stall coordinate is given. | -4 | Negative stall coordinates are not permitted. |
 
 Table 1.1
-## Unit tests
 
-
-## Code analysis
 
