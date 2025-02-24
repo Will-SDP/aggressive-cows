@@ -20,6 +20,6 @@ Based on the assement breifing these are the business assumptions which I have m
 | Duplicate stall coordinates | -2 | Duplicate stall coordinates have been input. |
 | A single stall is passed in | -3 | Unable to calculate distance with a single stall |
 
-Table 1.1
+
 
 
